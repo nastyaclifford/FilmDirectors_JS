@@ -1,0 +1,39 @@
+body{
+    background-image: url('images/background.jpg');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.directors-list{
+    margin: 2rem;
+}
+.directors-list{
+    display: flex;
+    flex-direction: column;
+}
+.directors-list_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.name{
+    font-weight: 700;
+}
+.career{
+    font-size: 0.8rem;
+}
+
+.films{
+    color: black;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+.top_rated_film{
+    margin: 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
